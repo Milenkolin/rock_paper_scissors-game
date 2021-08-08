@@ -2,14 +2,8 @@ import random
 
 
 def rules():
-    print("Hello bro it's a rock, paper, scissors game!!!")
-    print("Choose rock, scissors or paper for battle!")
-    print("Rock beats Scissors, but loses for Paper!")
-    print("Paper beats Rock, but loses for Scissors!")
-    print("Scissors beats Paper, but loses for Rock!")
-    print("The winner is the one who scores 5 points first!")
-    print("Computer choice - it's random, so it all depends on you!")
-    print("Good luck, man!\n")
+    with open("rules.txt","r") as rules_file:
+        print(*rules_file.readlines())
 
 
 def start_game():

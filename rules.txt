@@ -1,0 +1,9 @@
+Hello bro it's a rock, paper, scissors game!!!
+Choose rock, scissors or paper for battle!
+Rock beats Scissors, but loses for Paper!
+Paper beats Rock, but loses for Scissors!
+Scissors beats Paper, but loses for Rock!
+If players show the same things, they go again.
+The winner is the one who scores 5 points first!
+Computer choice - it's random, so it all depends on you!
+Good luck, man!
